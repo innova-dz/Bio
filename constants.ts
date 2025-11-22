@@ -1,13 +1,14 @@
-import { Facebook, Instagram, MessageCircle, Music2 } from 'lucide-react';
+import { Facebook, Instagram, Music2 } from 'lucide-react';
 import { BrandProfile, SocialLink } from './types';
 
 export const BRAND_PROFILE: BrandProfile = {
-  name: "Innova Digital",
+  name: "Innova Digital 03",
   tagline: "Premium Digital Services",
-  // Updated Bio
-  bio: "خدمات رقمية تسهلك تجربتك 🎀\nSnapchat Premium، Netflix، Canva ✨\nبأسعار رمزية.. خلي حياتك أسهل وديجيتال أكثر 💗",
+  // Updated Bio with non-breaking space (\u00A0) before the heart emoji
+  bio: "خدمات رقمية تسهلك تجربتك 🎀\nSnapchat Premium، Netflix، Canva ✨\nبأسعار رمزية.. خلي حياتك أسهل وديجيتال أكثر\u00A0💗",
   cta: "👇 انضمي لعالمنا الرقمي وتابعي جديدنا 👇",
-  avatarUrl: "logo.png", 
+  // Using direct ImgBB link
+  avatarUrl: "https://i.ibb.co/B5b06JbY/Scholar-2.png", 
   contactEmail: "contact@innova-digital.com"
 };
 
@@ -33,7 +34,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     title: 'TikTok',
     subtitle: 'جديد الترندات ⚡️',
     url: 'https://www.tiktok.com/@innova.startup',
-    icon: Tiktok,
+    icon: Music2,
     featured: true
   }
 ];

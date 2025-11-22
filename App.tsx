@@ -46,7 +46,7 @@ const App: React.FC = () => {
       {/* Noise texture overlay */}
       <div className="fixed inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 brightness-100 contrast-150 pointer-events-none z-0 mix-blend-overlay"></div>
 
-      <main className="relative z-10 max-w-md mx-auto px-6 pt-20 pb-12 flex flex-col min-h-screen">
+      <main className="relative z-10 max-w-md mx-auto px-4 sm:px-6 pt-20 pb-12 flex flex-col min-h-screen">
         
         <ProfileHeader profile={BRAND_PROFILE} />
         
